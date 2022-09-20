@@ -1,35 +1,46 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 1000px;
 
   display: flex;
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color:white;
 
-  h1 {
-    font-size: 54px;
-    color: ${(props) => props.theme.colors.primary};
-    margin-top: 40px;
-    text-align: center;
-    @media (max-width: 720px) {
-      font-size: 28px;
-    }
-  }
+`;
 
-  p {
-    font-size: 20px;
-    margin-top: 24px;
-    line-height: 32px;
-    @media (max-width: 720px) {
-      font-size: 16px;
-      margin-top: 0;
-    }
-  }
+export const TitleContainer = styled.h1`
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  color: black;
+  font-size: 28px;
+`;
 
-  img {
-    width: 25%;
-  }
+export const ArtistContainer = styled.div`
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 70px;
+`;
+
+export const NameContainer = styled.div`
+  width: 300px;
+  display: flex;
+  margin-bottom: 10px;
+`;
+
+export const TextContainer = styled.div`
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  height: 100px;
+`;
+
+export const TrackContainer = styled.div`
+
 `;
