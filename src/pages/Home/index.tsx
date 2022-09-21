@@ -37,7 +37,7 @@ interface Track {
 
 export const Home: React.FC = () => {
   const clientId = '899fe8f30b504396b2bb87608bb8dc72';
-  const redirectUri = 'http://localhost:3000/';
+  const redirectUri = 'https://spotify-search-livid.vercel.app/';
   const authRoute = 'https://accounts.spotify.com/authorize';
   const resType = 'token';
 
